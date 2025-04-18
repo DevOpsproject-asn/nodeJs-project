@@ -1,7 +1,7 @@
 node{
 
 stage('CheckOutCode'){
-git credentialsId: 'f52a7301-4cbc-4389-91fd-0e6ef69c493d', url: 'https://github.com/MithunTechnologiesDevOps/nodejs-app-mss.git'
+git credentialsId: 'f52a7301-4cbc-4389-91fd-0e6ef69c493d', url: 'https://github.com/DevOpsproject-asn/nodeJs-project.git'
 }
 
 stage('Build'){
